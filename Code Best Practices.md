@@ -1,4 +1,4 @@
-# cynqedDocs
+# Code Best Practices
 
 <b>DO’s</b>
 * Classes, methods, variables, and components must have the most restrictive access modifier necessary (i.e.: always prefer private over public and only use global for webservices).  
