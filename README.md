@@ -1,6 +1,6 @@
 # cynqedDocs
-Code related documents
-DO’s 
+
+<b>DO’s</b>
 * Classes, methods, variables, and components must have the most restrictive access modifier necessary (i.e.: always prefer private over public and only use global for webservices).  
 * Debug statements should have proper context and a logging level of FINE, FINEST, or ERROR. DEBUG-level statements can be used in testing environments but must not be committed to the repository.  
 * In Javascript, all logging statements should not be committed to the repository (the general public does not need to know the inner workings of our application). Console.error statements can be used, but only to report errors.  
@@ -30,7 +30,7 @@ DO’s
 * Add filter criteria before publishing platform events.  
 * For every new Validation Rule, ensure existing records are not failing, which means we need to update those records, and so, add this as part of cutover activities.  
 
-DON’Ts 
+<b>DON’Ts </b>
 * DON’T comment on unused code. Delete it. We have source control for this reason.  
 * DON’T duplicate code. Reuse, adapt, or overload.  
 * DON’T use empty try/catches (only use a catch if you are doing custom handling on the error).  
